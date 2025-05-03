@@ -1,0 +1,30 @@
+generations:
+  - name: "First Generation"
+    start_year: 1967
+    end_year: 1969
+    description: "The original Camaro was Chevrolet's response to the Ford Mustang, establishing the pony car rivalry that would span decades. Available as a coupe or convertible, it featured a unibody structure with a front subframe. Engine options ranged from inline-six to small and big-block V8s, with the legendary Z/28 introduced for SCCA Trans-Am racing homologation. The first-generation Camaro established the model's performance credentials and iconic styling elements."
+
+  - name: "Second Generation"
+    start_year: 1970
+    end_year: 1981
+    description: "The longest-running Camaro generation featured a completely new design with a more aggressive, lower, and wider stance. No convertible was offered during this generation. Performance initially thrived with multiple V8 options including the Z28 and SS models, but gradually declined due to increasing emissions regulations and the 1973 oil crisis. Despite these challenges, the second-generation Camaro maintained strong sales and further cemented the model's cultural significance."
+
+  - name: "Third Generation"
+    start_year: 1982
+    end_year: 1992
+    description: "The third-generation Camaro represented a dramatic modernization with a sleek, aerodynamic design featuring a hatchback body style. It introduced fuel injection, four-cylinder engine options, and five-speed manual transmissions. Performance gradually returned with the IROC-Z and later models, which featured tuned port injection. This generation embraced modern technology while maintaining the Camaro's performance image during a transitional era for American muscle cars."
+
+  - name: "Fourth Generation"
+    start_year: 1993
+    end_year: 2002
+    description: "The fourth-generation Camaro featured a more rounded, aerodynamic design while returning to a more traditional performance formula. The convertible body style returned, and power came primarily from V6 and V8 engines, with the LT1 and later LS1 V8s providing impressive performance for the era. Despite strong performance credentials, changing consumer preferences toward SUVs led to declining sales and eventually the model's temporary discontinuation after 2002."
+
+  - name: "Fifth Generation"
+    start_year: 2010
+    end_year: 2015
+    description: "After an eight-year hiatus, the Camaro returned with retro-inspired styling that paid homage to the first generation while incorporating modern elements. Built on GM's Zeta platform, it offered V6 and V8 engines with significantly improved refinement and technology compared to previous generations. The ZL1 and Z/28 models pushed performance to new heights. This generation successfully reestablished the Camaro in the modern muscle car segment and was featured prominently in popular culture."
+
+  - name: "Sixth Generation"
+    start_year: 2016
+    end_year: 2024
+    description: "The current Camaro evolved the retro design language while adopting the GM Alpha platform shared with Cadillac models, resulting in a lighter, more nimble vehicle. Engine options expanded to include a turbocharged four-cylinder, alongside V6 and V8 options. The SS models featured the LT1 V8 from the Corvette, while the ZL1 offered supercharged power with track-focused capability. Despite critical acclaim for its driving dynamics, sales declined amid shrinking demand for coupes and muscle cars. Chevrolet announced 2024 would be the final production year, marking the end of the Camaro's continuous production for the second time in its history."
