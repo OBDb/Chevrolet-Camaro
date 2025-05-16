@@ -8,6 +8,6 @@ test_cases:
 - response: 7E80462000D00
   expected_values:
     CHEVROLET_VSS: 0
-- response: 7E80462000D96
+- response: 7E80462000DFF
   expected_values:
-    CHEVROLET_VSS: 150
+    CHEVROLET_VSS: 255
