@@ -1,0 +1,5 @@
+command_id: DA11.2211EB|fc=1,c=14
+test_cases:
+- response: 7E8046211EB00
+  expected_values:
+    CHEVROLET_MIS_6: 0
