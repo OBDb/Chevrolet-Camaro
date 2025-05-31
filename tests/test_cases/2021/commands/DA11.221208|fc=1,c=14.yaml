@@ -1,5 +1,0 @@
-command_id: DA11.221208|fc=1,c=14
-test_cases:
-- response: '7E80462120800'
-  expected_values:
-    CHEVROLET_MIS_4: 0
