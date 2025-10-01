@@ -55,4 +55,4 @@ supported_commands_by_ecu:
   - 0131:CLR_DIST
   - 0142:VPWR
   "7E6":
-  - 0124:LAMBDA11_WIDE,O2S11_WIDE
+  - 0124:LAMBDA11_VOLT,O2S11_VOLT
