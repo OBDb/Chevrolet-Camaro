@@ -1,3 +1,6 @@
+references:
+  - "https://en.wikipedia.org/wiki/Chevrolet_Camaro"
+
 generations:
   - name: "First Generation"
     start_year: 1967
