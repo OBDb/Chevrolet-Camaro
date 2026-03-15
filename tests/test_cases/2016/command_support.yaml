@@ -5,6 +5,7 @@ supported_commands_by_ecu:
   - 7DF.0105
   - 7DF.0110
   - 7DF.012F
+  - 7DF.0131
   - 7DF.0142
   - 7DF.0144
   "7E0":
@@ -65,8 +66,6 @@ unsupported_commands_by_ecu:
   - 760.760.224052
   - 760.760.224053
   - 760.760.224054
-  "7DF":
-  - 7DF.0131
   "7E0":
   - 7E0.7E8.22248E:CHEVROLET_TP_FL
   - 7E0.7E8.22248F:CHEVROLET_TP_FR
