@@ -12,3 +12,6 @@ test_cases:
 - expected_values:
     CHEVROLET_MISFIRES_C5_CUR: 3
   response: 7E8046211EA03
+- expected_values:
+    CHEVROLET_MISFIRES_C5_CUR: 4
+  response: 7E8046211EA04
