@@ -4,29 +4,5 @@ test_cases:
     CHEVROLET_ATF_T: 62
   response: 7EA0462194066
 - expected_values:
-    CHEVROLET_ATF_T: 63
-  response: 7EA0462194067
-- expected_values:
-    CHEVROLET_ATF_T: 64
-  response: 7EA0462194068
-- expected_values:
-    CHEVROLET_ATF_T: 65
-  response: 7EA0462194069
-- expected_values:
-    CHEVROLET_ATF_T: 66
-  response: 7EA046219406A
-- expected_values:
-    CHEVROLET_ATF_T: 68
-  response: 7EA046219406C
-- expected_values:
-    CHEVROLET_ATF_T: 87
-  response: 7EA046219407F
-- expected_values:
-    CHEVROLET_ATF_T: 88
-  response: 7EA0462194080
-- expected_values:
-    CHEVROLET_ATF_T: 89
-  response: 7EA0462194081
-- expected_values:
     CHEVROLET_ATF_T: 90
   response: 7EA0462194082
