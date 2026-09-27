@@ -1,5 +1,5 @@
-command_id: 7E0.7E8.222344
+command_id: 7E0.7E8.222344|fc=1
 test_cases:
 - expected_values:
-    CHEVROLET_EOP_ABS: 0
+    CAMARO_EOP_ABS: 0
   response: '7E80462234400'
