@@ -1,20 +1,20 @@
 command_id: 7E0.2211A1
 test_cases:
 - expected_values:
-    CHEVROLET_RUNTM: 0
+    CAMARO_RUNTM: 0
   response: '7E8 05 62 11 A1 00 00 '
 - expected_values:
-    CHEVROLET_RUNTM: 760
+    CAMARO_RUNTM: 760
   response: '7E8 05 62 11 A1 02 F8 '
 - expected_values:
-    CHEVROLET_RUNTM: 2565
+    CAMARO_RUNTM: 2565
   response: '7E8 05 62 11 A1 0A 05 '
 - expected_values:
-    CHEVROLET_RUNTM: 0
+    CAMARO_RUNTM: 0
   response: 7E8056211A10000
 - expected_values:
-    CHEVROLET_RUNTM: 255
+    CAMARO_RUNTM: 255
   response: 7E8056211A100FF
 - expected_values:
-    CHEVROLET_RUNTM: 4099
+    CAMARO_RUNTM: 4099
   response: 7E8056211A11003

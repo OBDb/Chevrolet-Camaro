@@ -1,11 +1,11 @@
 command_id: 7E0.7E8.2212C4
 test_cases:
 - expected_values:
-    CHEVROLET_INJECTOR_DUTY_CYCLE_BANK_2: 0
+    CAMARO_INJ_DUTY_BANK_2: 0
   response: 7E8056212C40000
 - expected_values:
-    CHEVROLET_INJECTOR_DUTY_CYCLE_BANK_2: 3.6
+    CAMARO_INJ_DUTY_BANK_2: 3.6
   response: 7E8056212C400F0
 - expected_values:
-    CHEVROLET_INJECTOR_DUTY_CYCLE_BANK_2: 4.11
+    CAMARO_INJ_DUTY_BANK_2: 4.11
   response: 7E8056212C40112
