@@ -325,7 +325,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "19DE"}, "freq": 0.25,
   "signals": [
-    {"id": "CAMARO_ENG_TQ", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "newtonMeters" }, "name": "Engine torque"}
+    {"id": "CAMARO_ENG_TQ", "path": "Engine", "fmt": { "len": 16, "max": 444267.6462, "mul": 6.779089742, "unit": "newtonMeters" }, "name": "Engine torque"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1C1B"}, "freq": 1, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2017, 2018, 2019, 2020, 2021], "from": 2023 },
   "signals": [
