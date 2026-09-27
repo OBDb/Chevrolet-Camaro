@@ -277,7 +277,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1940"}, "freq": 5,
   "signals": [
-    {"id": "CAMARO_ATF_T_VAR_1", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Transmission fluid temperature, variant 1"}
+    {"id": "CAMARO_ATF_T_VAR_1", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Transmission fluid temperature, variant 1", "suggestedMetric": "transmissionFluidTemperature"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1991"}, "freq": 0.25,
   "signals": [
@@ -409,11 +409,11 @@
   ]},
 { "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1940"}, "freq": 5,
   "signals": [
-    {"id": "CAMARO_ATF_T_VAR_3", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Transmission fluid temperature, variant 3"}
+    {"id": "CAMARO_ATF_T_VAR_3", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Transmission fluid temperature, variant 3", "suggestedMetric": "transmissionFluidTemperature"}
   ]},
 { "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "280D"}, "freq": 5,
   "signals": [
-    {"id": "CAMARO_ATF_T_VAR_8", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Transmission fluid temperature, variant 8"}
+    {"id": "CAMARO_ATF_T_VAR_8", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Transmission fluid temperature, variant 8", "suggestedMetric": "transmissionFluidTemperature"}
   ]},
 { "hdr": "7E2", "rax": "7EA", "cmd": {"22": "1940"}, "freq": 5, "dbgfilter": { "to": 2012, "years": [2014, 2015], "from": 2017 },
   "signals": [
@@ -433,7 +433,7 @@
   ]},
 { "hdr": "7E2", "rax": "7EA", "dbg": true, "cmd": {"22": "280D"}, "freq": 5,
   "signals": [
-    {"id": "CAMARO_ATF_T_VAR_6", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Transmission fluid temperature, variant 6"}
+    {"id": "CAMARO_ATF_T_VAR_6", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Transmission fluid temperature, variant 6", "suggestedMetric": "transmissionFluidTemperature"}
   ]},
 { "hdr": "7E2", "rax": "7EA", "fcm1": true, "dbg": true, "cmd": {"22": "295A"}, "freq": 5,
   "signals": [
@@ -441,11 +441,11 @@
   ]},
 { "hdr": "7E3", "rax": "7EB", "dbg": true, "cmd": {"22": "280D"}, "freq": 5,
   "signals": [
-    {"id": "CAMARO_ATF_T_VAR_7", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Transmission fluid temperature, variant 7"}
+    {"id": "CAMARO_ATF_T_VAR_7", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Transmission fluid temperature, variant 7", "suggestedMetric": "transmissionFluidTemperature"}
   ]},
 { "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "1940"}, "freq": 5,
   "signals": [
-    {"id": "CAMARO_ATF_T_VAR_5", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Transmission fluid temperature, variant 5"}
+    {"id": "CAMARO_ATF_T_VAR_5", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Transmission fluid temperature, variant 5", "suggestedMetric": "transmissionFluidTemperature"}
   ]},
 { "hdr": "7E4", "rax": "7EC", "dbg": true, "cmd": {"22": "1941"}, "freq": 0.25,
   "signals": [
