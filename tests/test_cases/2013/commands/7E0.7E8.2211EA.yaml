@@ -1,26 +1,26 @@
 command_id: 7E0.7E8.2211EA
 test_cases:
 - expected_values:
-    CHEVROLET_MISFIRES_C5_CUR: 0
+    CAMARO_MIS_CNT_5: 0
   response: 7E8046211EA00
 - expected_values:
-    CHEVROLET_MISFIRES_C5_CUR: 1
+    CAMARO_MIS_CNT_5: 1
   response: 7E8046211EA01
 - expected_values:
-    CHEVROLET_MISFIRES_C5_CUR: 2
+    CAMARO_MIS_CNT_5: 2
   response: 7E8046211EA02
 - expected_values:
-    CHEVROLET_MISFIRES_C5_CUR: 3
+    CAMARO_MIS_CNT_5: 3
   response: 7E8046211EA03
 - expected_values:
-    CHEVROLET_MISFIRES_C5_CUR: 4
+    CAMARO_MIS_CNT_5: 4
   response: 7E8046211EA04
 - expected_values:
-    CHEVROLET_MISFIRES_C5_CUR: 5
+    CAMARO_MIS_CNT_5: 5
   response: 7E8046211EA05
 - expected_values:
-    CHEVROLET_MISFIRES_C5_CUR: 6
+    CAMARO_MIS_CNT_5: 6
   response: 7E8046211EA06
 - expected_values:
-    CHEVROLET_MISFIRES_C5_CUR: 12
+    CAMARO_MIS_CNT_5: 12
   response: 7E8046211EA0C

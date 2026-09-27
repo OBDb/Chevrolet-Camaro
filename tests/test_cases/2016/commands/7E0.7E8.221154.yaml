@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.221154
 test_cases:
 - expected_values:
-    CHEVROLET_EOT_CALC: 29
+    CAMARO_EOT_CALC: 29
   response: '7E80462115445'
 - expected_values:
-    CHEVROLET_EOT_CALC: 95
+    CAMARO_EOT_CALC: 95
   response: '7E80462115487'
