@@ -1,0 +1,5 @@
+command_id: 241.641.225008
+test_cases:
+- expected_values:
+    CAMARO_TP_RL_BCM: 220
+  response: 641056250080DC0
