@@ -4,8 +4,8 @@ test_cases:
     CAMARO_TC_SLIP_VSS: 0
   response: 7EA056219910000
 - expected_values:
-    CAMARO_TC_SLIP_VSS: 31.625
-  response: 7EA0562199100FD
+    CAMARO_TC_SLIP_VSS: 31.875
+  response: 7EA0562199100FF
 - expected_values:
-    CAMARO_TC_SLIP_VSS: -22.75
-  response: 7EA05621991FF4A
+    CAMARO_TC_SLIP_VSS: -23.75
+  response: 7EA05621991FF42

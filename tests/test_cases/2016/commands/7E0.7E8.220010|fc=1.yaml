@@ -1,14 +1,11 @@
 command_id: 7E0.7E8.220010|fc=1
 test_cases:
 - expected_values:
-    CAMARO_MAF: 3.67
-  response: 7E805620010016F
+    CAMARO_MAF: 0
+  response: '7E8056200100000'
 - expected_values:
     CAMARO_MAF: 5.11
   response: 7E80562001001FF
 - expected_values:
-    CAMARO_MAF: 5.13
-  response: '7E8056200100201'
-- expected_values:
-    CAMARO_MAF: 69.45
-  response: 7E8056200101B21
+    CAMARO_MAF: 167
+  response: 7E805620010413C

@@ -1,26 +1,8 @@
 command_id: 7E0.7E8.221141
 test_cases:
 - expected_values:
-    CAMARO_IGN_1_V: 12.4
-  response: 7E8046211417C
-- expected_values:
-    CAMARO_IGN_1_V: 12.5
-  response: 7E8046211417D
-- expected_values:
-    CAMARO_IGN_1_V: 12.6
-  response: 7E8046211417E
-- expected_values:
-    CAMARO_IGN_1_V: 12.7
-  response: 7E8046211417F
-- expected_values:
-    CAMARO_IGN_1_V: 12.8
-  response: '7E80462114180'
-- expected_values:
-    CAMARO_IGN_1_V: 12.9
-  response: '7E80462114181'
-- expected_values:
-    CAMARO_IGN_1_V: 13
-  response: '7E80462114182'
+    CAMARO_IGN_1_V: 0
+  response: '7E80462114100'
 - expected_values:
     CAMARO_IGN_1_V: 13.7
   response: '7E80462114189'
