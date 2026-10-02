@@ -4,5 +4,5 @@ test_cases:
     CAMARO_VSS: 0
   response: 7E80462000D00
 - expected_values:
-    CAMARO_VSS: 150
-  response: 7E80462000D96
+    CAMARO_VSS: null
+  response: 7E80462000DFF
