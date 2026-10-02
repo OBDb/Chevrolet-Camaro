@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.22153E|fc=1
 test_cases:
 - expected_values:
-    CAMARO_EOT_ALT: 87
-  response: 7E80462153E7F
+    CAMARO_EOT_ALT: 85
+  response: 7E80462153E7D
 - expected_values:
     CAMARO_EOT_ALT: 98
   response: 7E80462153E8A
