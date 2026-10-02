@@ -16,5 +16,8 @@ test_cases:
     CAMARO_CURRENT_GEAR_VAR_2: 6
   response: 7EA0462199A06
 - expected_values:
+    CAMARO_CURRENT_GEAR_VAR_2: 7
+  response: 7EA0462199A07
+- expected_values:
     CAMARO_CURRENT_GEAR_VAR_2: 8
   response: 7EA0462199A08
