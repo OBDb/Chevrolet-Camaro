@@ -5,35 +5,35 @@
     { "hdr": "DA40", "rax": "40",  "type": "bodyControl" }
   ],
   "commands": [
-{ "hdr": "241", "rax": "641", "dbg": true, "cmd": {"22": "4005"}, "freq": 3600,
+{ "hdr": "241", "rax": "641", "cmd": {"22": "4005"}, "freq": 3600, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "CAMARO_TID_FL", "path": "Tires", "fmt": { "len": 32, "max": 4294967295, "unit": "hex" }, "name": "Front left tire sensor ID"}
   ]},
-{ "hdr": "241", "rax": "641", "dbg": true, "cmd": {"22": "4006"}, "freq": 3600,
+{ "hdr": "241", "rax": "641", "cmd": {"22": "4006"}, "freq": 3600, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "CAMARO_TID_FR", "path": "Tires", "fmt": { "len": 32, "max": 4294967295, "unit": "hex" }, "name": "Front right tire sensor ID"}
   ]},
-{ "hdr": "241", "rax": "641", "dbg": true, "cmd": {"22": "4007"}, "freq": 3600,
+{ "hdr": "241", "rax": "641", "cmd": {"22": "4007"}, "freq": 3600, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "CAMARO_TID_RR", "path": "Tires", "fmt": { "len": 32, "max": 4294967295, "unit": "hex" }, "name": "Rear right tire sensor ID"}
   ]},
-{ "hdr": "241", "rax": "641", "dbg": true, "cmd": {"22": "4008"}, "freq": 3600,
+{ "hdr": "241", "rax": "641", "cmd": {"22": "4008"}, "freq": 3600, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "CAMARO_TID_RL", "path": "Tires", "fmt": { "len": 32, "max": 4294967295, "unit": "hex" }, "name": "Rear left tire sensor ID"}
   ]},
-{ "hdr": "241", "rax": "641", "dbg": true, "cmd": {"22": "5005"}, "freq": 15,
+{ "hdr": "241", "rax": "641", "cmd": {"22": "5005"}, "freq": 15, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "CAMARO_TP_FL_BCM", "path": "Tires", "fmt": { "len": 16, "max": 4095.9375, "div": 16, "unit": "kilopascal" }, "name": "Front left tire pressure", "suggestedMetric": "frontLeftTirePressure"}
   ]},
-{ "hdr": "241", "rax": "641", "dbg": true, "cmd": {"22": "5006"}, "freq": 15,
+{ "hdr": "241", "rax": "641", "cmd": {"22": "5006"}, "freq": 15, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "CAMARO_TP_FR_BCM", "path": "Tires", "fmt": { "len": 16, "max": 4095.9375, "div": 16, "unit": "kilopascal" }, "name": "Front right tire pressure", "suggestedMetric": "frontRightTirePressure"}
   ]},
-{ "hdr": "241", "rax": "641", "dbg": true, "cmd": {"22": "5007"}, "freq": 15,
+{ "hdr": "241", "rax": "641", "cmd": {"22": "5007"}, "freq": 15, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "CAMARO_TP_RR_BCM", "path": "Tires", "fmt": { "len": 16, "max": 4095.9375, "div": 16, "unit": "kilopascal" }, "name": "Rear right tire pressure", "suggestedMetric": "rearRightTirePressure"}
   ]},
-{ "hdr": "241", "rax": "641", "dbg": true, "cmd": {"22": "5008"}, "freq": 15,
+{ "hdr": "241", "rax": "641", "cmd": {"22": "5008"}, "freq": 15, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "CAMARO_TP_RL_BCM", "path": "Tires", "fmt": { "len": 16, "max": 4095.9375, "div": 16, "unit": "kilopascal" }, "name": "Rear left tire pressure", "suggestedMetric": "rearLeftTirePressure"}
   ]},
@@ -61,19 +61,19 @@
   "signals": [
     {"id": "CAMARO_VSS", "path": "Movement", "fmt": { "len": 8, "max": 255, "nullmax": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "cmd": {"22": "0010"}, "freq": 1, "dbgfilter": { "to": 2012, "from": 2014 },
+{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "cmd": {"22": "0010"}, "freq": 1, "dbgfilter": { "to": 2012, "years": [2014, 2015], "from": 2017 },
   "signals": [
     {"id": "CAMARO_MAF", "path": "Engine", "fmt": { "len": 16, "max": 655.35, "mul": 100, "div": 10000, "unit": "gramsPerSecond" }, "name": "Mass airflow sensor", "suggestedMetric": "massAirFlow"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "dbg": true, "cmd": {"22": "002F"}, "freq": 30,
+{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "cmd": {"22": "002F"}, "freq": 30, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "CAMARO_FLI", "path": "Fuel", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Fuel remaining", "suggestedMetric": "fuelTankLevel"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "0052"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0052"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "CAMARO_ETHANOL_CONTENT_FUEL", "path": "Fuel", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Ethanol content of fuel"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "dbg": true, "cmd": {"22": "005C"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "cmd": {"22": "005C"}, "freq": 5, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "CAMARO_EOT", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Engine oil temperature", "suggestedMetric": "engineOilTemperature"}
   ]},
@@ -85,11 +85,11 @@
   "signals": [
     {"id": "CAMARO_TOT_FUEL_CONS_RATE", "path": "Fuel", "fmt": { "len": 16, "max": 1310.7, "mul": 200, "div": 10000, "unit": "gramsPerSecond" }, "name": "Total fuel consumption rate"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1141"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1141"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "CAMARO_IGN_1_V", "path": "Battery", "fmt": { "len": 8, "max": 25.5, "div": 10, "unit": "volts" }, "name": "Ignition 1 voltage"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1145"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1145"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "CAMARO_HEATED_OXYGEN_SENS", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "millivolts" }, "name": "Heated oxygen sensor"}
   ]},
@@ -173,27 +173,27 @@
   "signals": [
     {"id": "CAMARO_MIS_CNT_6", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Misfire current, cylinder 6"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "11EC"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11EC"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "CAMARO_MIS_CNT_7", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Misfire current, cylinder 7"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "11ED"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11ED"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "CAMARO_MIS_CNT_8", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Misfire current, cylinder 8"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "11F8"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11F8"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "CAMARO_MIS_HIST_5", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire history, cylinder 5"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "11F9"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11F9"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "CAMARO_MIS_HIST_6", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire history, cylinder 6"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "11FA"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11FA"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "CAMARO_MIS_HIST_7", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire history, cylinder 7"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "11FB"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "11FB"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "CAMARO_MIS_HIST_8", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire history, cylinder 8"}
   ]},
@@ -201,19 +201,19 @@
   "signals": [
     {"id": "CAMARO_TOTAL_MISFIRE", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Total misfire"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1201"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1201"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "CAMARO_MIS_HIST_1", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire history, cylinder 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1202"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1202"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "CAMARO_MIS_HIST_2", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire history, cylinder 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1203"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1203"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "CAMARO_MIS_HIST_3", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire history, cylinder 3"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1204"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1204"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "CAMARO_MIS_HIST_4", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Misfire history, cylinder 4"}
   ]},
@@ -265,7 +265,7 @@
   "signals": [
     {"id": "CAMARO_COOLING_FAN_MOTOR", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Cooling fan motor command"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "cmd": {"22": "1470"}, "freq": 1, "dbgfilter": { "to": 2012, "from": 2014 },
+{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "cmd": {"22": "1470"}, "freq": 1, "dbgfilter": { "to": 2012, "years": [2014, 2015], "from": 2017 },
   "signals": [
     {"id": "CAMARO_EOP", "path": "Engine", "fmt": { "len": 8, "max": 1020, "mul": 400, "div": 100, "unit": "kilopascal" }, "name": "Engine oil pressure"}
   ]},
@@ -273,11 +273,11 @@
   "signals": [
     {"id": "CAMARO_IAT_2", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Intake air temperature 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "cmd": {"22": "153E"}, "freq": 5, "dbgfilter": { "to": 2012, "from": 2014 },
+{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "cmd": {"22": "153E"}, "freq": 5, "dbgfilter": { "to": 2012, "years": [2014, 2015], "from": 2017 },
   "signals": [
     {"id": "CAMARO_EOT_ALT", "path": "Engine", "fmt": { "len": 8, "max": 215, "add": -40, "unit": "celsius" }, "name": "Engine oil temperature", "suggestedMetric": "engineOilTemperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1564"}, "freq": 1,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1564"}, "freq": 1, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "CAMARO_AC_HIGH_SIDE_P", "path": "Engine", "fmt": { "len": 8, "max": 515.1, "mul": 2.02, "unit": "psi" }, "name": "Air conditioning high side pressure"}
   ]},
@@ -313,7 +313,7 @@
   "signals": [
     {"id": "CAMARO_BALANCE_RATE_CYL_8", "path": "Engine", "fmt": { "len": 16, "max": 511, "min": -512, "div": 64, "add": -512, "unit": "scalar" }, "name": "Balance rate, cylinder 8"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1940"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1940"}, "freq": 5, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "CAMARO_ATF_T_VAR_1", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Transmission fluid temperature, variant 1"}
   ]},
@@ -377,7 +377,7 @@
   "signals": [
     {"id": "CAMARO_FUEL_INJECTION_C8", "path": "Fuel", "fmt": { "len": 16, "max": 65.535, "mul": 10, "div": 10000, "unit": "milliseconds" }, "name": "Fuel injection, cylinder 8"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "cmd": {"22": "20E3"}, "freq": 1, "dbgfilter": { "to": 2012, "from": 2014 },
+{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "cmd": {"22": "20E3"}, "freq": 1, "dbgfilter": { "to": 2012, "years": [2014, 2015], "from": 2017 },
   "signals": [
     {"id": "CAMARO_BP_ACT", "path": "Engine", "fmt": { "len": 16, "max": 655.35, "mul": 100, "div": 10000, "unit": "kilopascal" }, "name": "Boost pressure, actual"}
   ]},
@@ -397,7 +397,7 @@
   "signals": [
     {"id": "CAMARO_CHG_AIR_COOLER_T_2", "path": "Battery", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Charge air cooler temperature sensor 2"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "3201"}, "freq": 0.25,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "3201"}, "freq": 0.25, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "CAMARO_CURRENT_GEAR_VAR_3", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Current gear, variant 3"}
   ]},
@@ -405,7 +405,7 @@
   "signals": [
     {"id": "CAMARO_FUEL_T", "path": "Fuel", "fmt": { "len": 8, "max": 127.5, "mul": 50, "div": 100, "unit": "celsius" }, "name": "Fuel temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "cmd": {"22": "328A"}, "freq": 1, "dbgfilter": { "to": 2012, "from": 2014 },
+{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "cmd": {"22": "328A"}, "freq": 1, "dbgfilter": { "to": 2012, "years": [2014, 2015], "from": 2017 },
   "signals": [
     {"id": "CAMARO_BP_DES", "path": "Engine", "fmt": { "len": 16, "max": 655.35, "mul": 100, "div": 10000, "unit": "kilopascal" }, "name": "Boost pressure, desired"}
   ]},
@@ -441,11 +441,11 @@
   "signals": [
     {"id": "CAMARO_ATF_T", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Transmission fluid temperature", "suggestedMetric": "transmissionFluidTemperature"}
   ]},
-{ "hdr": "7E2", "rax": "7EA", "fcm1": true, "cmd": {"22": "1991"}, "freq": 0.25, "dbgfilter": { "to": 2012, "from": 2014 },
+{ "hdr": "7E2", "rax": "7EA", "fcm1": true, "cmd": {"22": "1991"}, "freq": 0.25, "dbgfilter": { "to": 2012, "years": [2014, 2015], "from": 2017 },
   "signals": [
     {"id": "CAMARO_TC_SLIP_VSS", "path": "Movement", "fmt": { "len": 16, "max": 4095.875, "min": -4096, "mul": 1250, "div": 10000, "sign": true, "unit": "rpm" }, "name": "Torque converter clutch slip speed"}
   ]},
-{ "hdr": "7E2", "rax": "7EA", "dbg": true, "cmd": {"22": "199A"}, "freq": 0.25,
+{ "hdr": "7E2", "rax": "7EA", "cmd": {"22": "199A"}, "freq": 0.25, "dbgfilter": { "to": 2015, "from": 2017 },
   "signals": [
     {"id": "CAMARO_CURRENT_GEAR_VAR_2", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Current gear, variant 2"}
   ]},
