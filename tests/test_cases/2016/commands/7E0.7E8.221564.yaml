@@ -4,5 +4,5 @@ test_cases:
     CAMARO_AC_HIGH_SIDE_P: 111.1
   response: '7E80462156437'
 - expected_values:
-    CAMARO_AC_HIGH_SIDE_P: 238.36
-  response: '7E80462156476'
+    CAMARO_AC_HIGH_SIDE_P: 276.74
+  response: '7E80462156489'
