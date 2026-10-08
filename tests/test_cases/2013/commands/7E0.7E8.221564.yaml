@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.221564
+test_cases:
+- expected_values:
+    CAMARO_AC_HIGH_SIDE_P: 90.9
+  response: 7E8046215642D
+- expected_values:
+    CAMARO_AC_HIGH_SIDE_P: 92.92
+  response: 7E8046215642E
+- expected_values:
+    CAMARO_AC_HIGH_SIDE_P: 94.94
+  response: 7E8046215642F
