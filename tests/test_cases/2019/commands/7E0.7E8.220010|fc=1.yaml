@@ -4,8 +4,8 @@ test_cases:
     CAMARO_MAF: 0
   response: '7E8056200100000'
 - expected_values:
-    CAMARO_MAF: 10.19
-  response: 7E80562001003FB
+    CAMARO_MAF: 12.79
+  response: 7E80562001004FF
 - expected_values:
-    CAMARO_MAF: 53.98
-  response: '7E8056200101516'
+    CAMARO_MAF: 125.63
+  response: '7E8056200103113'

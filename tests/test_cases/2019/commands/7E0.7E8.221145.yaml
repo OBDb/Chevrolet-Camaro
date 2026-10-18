@@ -4,5 +4,5 @@ test_cases:
     CAMARO_HEATED_OXYGEN_SENS: 0
   response: '7E80462114500'
 - expected_values:
-    CAMARO_HEATED_OXYGEN_SENS: 213
-  response: 7E804621145D5
+    CAMARO_HEATED_OXYGEN_SENS: 217
+  response: 7E804621145D9
