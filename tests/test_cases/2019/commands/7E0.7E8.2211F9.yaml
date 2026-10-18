@@ -3,3 +3,9 @@ test_cases:
 - expected_values:
     CAMARO_MIS_HIST_6: 0
   response: 7E8056211F90000
+- expected_values:
+    CAMARO_MIS_HIST_6: 1
+  response: 7E8056211F90001
+- expected_values:
+    CAMARO_MIS_HIST_6: 2
+  response: 7E8056211F90002

@@ -4,5 +4,5 @@ test_cases:
     CAMARO_ATF_T_VAR_1: 19
   response: 7E8046219403B
 - expected_values:
-    CAMARO_ATF_T_VAR_1: 67
-  response: 7E8046219406B
+    CAMARO_ATF_T_VAR_1: 68
+  response: 7E8046219406C

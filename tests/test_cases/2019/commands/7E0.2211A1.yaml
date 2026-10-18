@@ -1,14 +1,11 @@
 command_id: 7E0.2211A1
 test_cases:
 - expected_values:
-    CAMARO_RUNTM: 71
-  response: 7E8056211A10047
+    CAMARO_RUNTM: 0
+  response: 7E8056211A10000
 - expected_values:
-    CAMARO_RUNTM: 256
-  response: 7E8056211A10100
-- expected_values:
-    CAMARO_RUNTM: 1021
-  response: 7E8056211A103FD
+    CAMARO_RUNTM: 1023
+  response: 7E8056211A103FF
 - expected_values:
     CAMARO_RUNTM: 1033
   response: 7E8056211A10409
