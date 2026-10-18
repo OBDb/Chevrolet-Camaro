@@ -1,0 +1,5 @@
+command_id: 241.641.224006
+test_cases:
+- expected_values:
+    CAMARO_TID_FR: 2146894
+  response: 641076240060020C24E

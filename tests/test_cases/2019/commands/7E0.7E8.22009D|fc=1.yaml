@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22009D|fc=1
+test_cases:
+- expected_values:
+    CAMARO_TOT_FUEL_CONS_RATE: 0
+  response: 7E80762009D00000000
+- expected_values:
+    CAMARO_TOT_FUEL_CONS_RATE: 4.34
+  response: 7E80762009D00D900D9
+- expected_values:
+    CAMARO_TOT_FUEL_CONS_RATE: 8.4
+  response: 7E80762009D01A401A4

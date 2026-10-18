@@ -1,0 +1,5 @@
+command_id: 241.641.224008
+test_cases:
+- expected_values:
+    CAMARO_TID_RL: 2817957
+  response: 64107624008002AFFA5

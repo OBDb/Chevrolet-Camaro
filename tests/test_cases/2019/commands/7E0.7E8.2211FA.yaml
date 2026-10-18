@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.2211FA
+test_cases:
+- expected_values:
+    CAMARO_MIS_HIST_7: 0
+  response: 7E8056211FA0000
+- expected_values:
+    CAMARO_MIS_HIST_7: 1
+  response: 7E8056211FA0001
+- expected_values:
+    CAMARO_MIS_HIST_7: 2
+  response: 7E8056211FA0002
+- expected_values:
+    CAMARO_MIS_HIST_7: 4
+  response: 7E8056211FA0004
+- expected_values:
+    CAMARO_MIS_HIST_7: 5
+  response: 7E8056211FA0005
+- expected_values:
+    CAMARO_MIS_HIST_7: 6
+  response: 7E8056211FA0006

@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.222344|fc=1
+test_cases:
+- expected_values:
+    CAMARO_EOP_ABS: 92
+  response: '7E80462234417'
+- expected_values:
+    CAMARO_EOP_ABS: 424
+  response: 7E8046223446A

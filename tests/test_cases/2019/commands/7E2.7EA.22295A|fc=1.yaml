@@ -1,0 +1,8 @@
+command_id: 7E2.7EA.22295A|fc=1
+test_cases:
+- expected_values:
+    CAMARO_TF_T_FLTED: 19
+  response: 7EA0462295A3B
+- expected_values:
+    CAMARO_TF_T_FLTED: 67
+  response: 7EA0462295A6B
