@@ -4,5 +4,5 @@ test_cases:
     CAMARO_TF_T_FLTED: 19
   response: 7EA0462295A3B
 - expected_values:
-    CAMARO_TF_T_FLTED: 67
-  response: 7EA0462295A6B
+    CAMARO_TF_T_FLTED: 68
+  response: 7EA0462295A6C

@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     CAMARO_MIS_CNT_2: 1
   response: '7E80462120501'
+- expected_values:
+    CAMARO_MIS_CNT_2: 4
+  response: '7E80462120504'

@@ -4,5 +4,5 @@ test_cases:
     CAMARO_COOLING_FAN_MOTOR: 0
   response: 7E8046213AF00
 - expected_values:
-    CAMARO_COOLING_FAN_MOTOR: 25.88235
-  response: 7E8046213AF42
+    CAMARO_COOLING_FAN_MOTOR: 38.82353
+  response: 7E8046213AF63

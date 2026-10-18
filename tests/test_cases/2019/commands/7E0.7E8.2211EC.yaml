@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     CAMARO_MIS_CNT_7: 2
   response: 7E8046211EC02
+- expected_values:
+    CAMARO_MIS_CNT_7: 4
+  response: 7E8046211EC04

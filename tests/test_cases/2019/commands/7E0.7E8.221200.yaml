@@ -15,3 +15,6 @@ test_cases:
 - expected_values:
     CAMARO_TOTAL_MISFIRE: 8
   response: '7E80462120008'
+- expected_values:
+    CAMARO_TOTAL_MISFIRE: 12
+  response: 7E8046212000C
