@@ -1,0 +1,23 @@
+command_id: 241.641.225008
+test_cases:
+- expected_values:
+    CAMARO_TP_RL_BCM: 206.25
+  response: 641056250080CE4
+- expected_values:
+    CAMARO_TP_RL_BCM: 209
+  response: 641056250080D10
+- expected_values:
+    CAMARO_TP_RL_BCM: 211.75
+  response: 641056250080D3C
+- expected_values:
+    CAMARO_TP_RL_BCM: 214.5
+  response: 641056250080D68
+- expected_values:
+    CAMARO_TP_RL_BCM: 220
+  response: 641056250080DC0
+- expected_values:
+    CAMARO_TP_RL_BCM: 222.75
+  response: 641056250080DEC
+- expected_values:
+    CAMARO_TP_RL_BCM: 225.5
+  response: '641056250080E18'
