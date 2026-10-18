@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.221940
+test_cases:
+- expected_values:
+    CAMARO_ATF_T_VAR_1: 91
+  response: '7E80462194083'
+- expected_values:
+    CAMARO_ATF_T_VAR_1: 92
+  response: '7E80462194084'
