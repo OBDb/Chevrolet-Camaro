@@ -1,0 +1,32 @@
+command_id: 7E0.7E8.221145
+test_cases:
+- expected_values:
+    CAMARO_HEATED_OXYGEN_SENS: 10
+  response: 7E8046211450A
+- expected_values:
+    CAMARO_HEATED_OXYGEN_SENS: 24
+  response: '7E80462114518'
+- expected_values:
+    CAMARO_HEATED_OXYGEN_SENS: 30
+  response: 7E8046211451E
+- expected_values:
+    CAMARO_HEATED_OXYGEN_SENS: 65
+  response: '7E80462114541'
+- expected_values:
+    CAMARO_HEATED_OXYGEN_SENS: 103
+  response: '7E80462114567'
+- expected_values:
+    CAMARO_HEATED_OXYGEN_SENS: 138
+  response: 7E8046211458A
+- expected_values:
+    CAMARO_HEATED_OXYGEN_SENS: 174
+  response: 7E804621145AE
+- expected_values:
+    CAMARO_HEATED_OXYGEN_SENS: 210
+  response: 7E804621145D2
+- expected_values:
+    CAMARO_HEATED_OXYGEN_SENS: 242
+  response: 7E804621145F2
+- expected_values:
+    CAMARO_HEATED_OXYGEN_SENS: 255
+  response: 7E804621145FF
