@@ -4,5 +4,5 @@ test_cases:
     CAMARO_EOP_ABS: 92
   response: '7E80462234417'
 - expected_values:
-    CAMARO_EOP_ABS: 424
-  response: 7E8046223446A
+    CAMARO_EOP_ABS: 432
+  response: 7E8046223446C

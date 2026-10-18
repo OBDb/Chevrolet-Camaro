@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.22002F|fc=1
 test_cases:
 - expected_values:
-    CAMARO_FLI: 33.33333
-  response: 7E80462002F55
+    CAMARO_FLI: 26.27451
+  response: 7E80462002F43
 - expected_values:
     CAMARO_FLI: 54.11765
   response: 7E80462002F8A
