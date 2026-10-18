@@ -4,5 +4,5 @@ test_cases:
     CAMARO_IGN_1_V: 0
   response: '7E80462114100'
 - expected_values:
-    CAMARO_IGN_1_V: 14.6
-  response: '7E80462114192'
+    CAMARO_IGN_1_V: 14.7
+  response: '7E80462114193'
