@@ -18,3 +18,9 @@ test_cases:
 - expected_values:
     CAMARO_TP_FL_BCM: 222.75
   response: 641056250050DEC
+- expected_values:
+    CAMARO_TP_FL_BCM: 225.5
+  response: '641056250050E18'
+- expected_values:
+    CAMARO_TP_FL_BCM: 228.25
+  response: '641056250050E44'
