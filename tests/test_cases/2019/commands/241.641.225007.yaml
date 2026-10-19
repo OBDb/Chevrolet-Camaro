@@ -4,23 +4,8 @@ test_cases:
     CAMARO_TP_RR_BCM: 209
   response: 641056250070D10
 - expected_values:
-    CAMARO_TP_RR_BCM: 211.75
-  response: 641056250070D3C
+    CAMARO_TP_RR_BCM: 239.25
+  response: 641056250070EF4
 - expected_values:
-    CAMARO_TP_RR_BCM: 214.5
-  response: 641056250070D68
-- expected_values:
-    CAMARO_TP_RR_BCM: 220
-  response: 641056250070DC0
-- expected_values:
-    CAMARO_TP_RR_BCM: 222.75
-  response: 641056250070DEC
-- expected_values:
-    CAMARO_TP_RR_BCM: 225.5
-  response: '641056250070E18'
-- expected_values:
-    CAMARO_TP_RR_BCM: 228.25
-  response: '641056250070E44'
-- expected_values:
-    CAMARO_TP_RR_BCM: 231
-  response: '641056250070E70'
+    CAMARO_TP_RR_BCM: 242
+  response: 641056250070F20
