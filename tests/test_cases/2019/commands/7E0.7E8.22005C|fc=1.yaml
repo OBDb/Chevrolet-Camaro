@@ -4,5 +4,5 @@ test_cases:
     CAMARO_EOT: 25
   response: 7E80462005C41
 - expected_values:
-    CAMARO_EOT: 86
-  response: 7E80462005C7E
+    CAMARO_EOT: 89
+  response: 7E80462005C81
