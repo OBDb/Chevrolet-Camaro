@@ -7,8 +7,8 @@ test_cases:
     CAMARO_TP_FR_BCM: 192.5
   response: 641056250060C08
 - expected_values:
-    CAMARO_TP_FR_BCM: 206.25
-  response: 641056250060CE4
+    CAMARO_TP_FR_BCM: 222.75
+  response: 641056250060DEC
 - expected_values:
-    CAMARO_TP_FR_BCM: 209
-  response: 641056250060D10
+    CAMARO_TP_FR_BCM: 225.5
+  response: '641056250060E18'
