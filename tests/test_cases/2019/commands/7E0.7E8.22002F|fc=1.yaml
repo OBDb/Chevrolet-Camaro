@@ -4,5 +4,5 @@ test_cases:
     CAMARO_FLI: 12.54902
   response: 7E80462002F20
 - expected_values:
-    CAMARO_FLI: 99.60784
-  response: 7E80462002FFE
+    CAMARO_FLI: 100
+  response: 7E80462002FFF
