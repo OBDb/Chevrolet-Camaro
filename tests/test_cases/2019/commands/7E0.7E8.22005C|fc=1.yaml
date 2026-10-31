@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.22005C|fc=1
 test_cases:
 - expected_values:
-    CAMARO_EOT: 25
-  response: 7E80462005C41
+    CAMARO_EOT: 20
+  response: 7E80462005C3C
 - expected_values:
     CAMARO_EOT: 91
   response: 7E80462005C83
