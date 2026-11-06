@@ -1,8 +1,8 @@
 command_id: 241.641.225005
 test_cases:
 - expected_values:
-    CAMARO_TP_FL_BCM: 198
-  response: 641056250050C60
+    CAMARO_TP_FL_BCM: 195.25
+  response: 641056250050C34
 - expected_values:
     CAMARO_TP_FL_BCM: 209
   response: 641056250050D10
