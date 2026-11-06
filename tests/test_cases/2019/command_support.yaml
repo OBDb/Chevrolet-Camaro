@@ -10,6 +10,7 @@ supported_commands_by_ecu:
   - 241.641.225007:CAMARO_TP_RR_BCM
   - 241.641.225008:CAMARO_TP_RL_BCM
   "7DF":
+  - 7DF.0104
   - 7DF.0143
   - 7DF.0144
   "7E0":
