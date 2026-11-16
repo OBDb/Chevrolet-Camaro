@@ -379,7 +379,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "fcm1": true, "cmd": {"22": "20E3"}, "freq": 1, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2017, 2018], "from": 2020 },
   "signals": [
-    {"id": "CAMARO_BP_ACT", "path": "Engine", "fmt": { "len": 16, "max": 655.35, "mul": 100, "div": 10000, "unit": "kilopascal" }, "name": "Boost pressure, actual"}
+    {"id": "CAMARO_BP_ACT", "path": "Engine", "fmt": { "len": 16, "max": 655.35, "mul": 100, "div": 10000, "unit": "kilopascal" }, "name": "Boost pressure, actual", "suggestedMetric": "boostPressure"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "fcm1": true, "cmd": {"22": "2344"}, "freq": 1, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2017, 2018, 2020, 2021], "from": 2023 },
   "signals": [
@@ -502,11 +502,11 @@
   ]},
 { "hdr": "DA28", "pri": "14", "fcm1": true, "dbg": true, "cmd": {"22": "4C2F"}, "freq": 0.25,
   "signals": [
-    {"id": "CAMARO_LAT_G", "path": "Orientation", "fmt": { "len": 16, "max": 52, "min": -52, "mul": 15.92796725, "div": 10000, "sign": true, "unit": "gravity" }, "name": "Lateral acceleration"}
+    {"id": "CAMARO_LAT_G", "path": "Orientation", "fmt": { "len": 16, "max": 52, "min": -52, "mul": 15.92796725, "div": 10000, "sign": true, "unit": "gravity" }, "name": "Lateral acceleration", "suggestedMetric": "lateralAcceleration"}
   ]},
 { "hdr": "DA28", "pri": "14", "fcm1": true, "dbg": true, "cmd": {"22": "4C30"}, "freq": 0.25,
   "signals": [
-    {"id": "CAMARO_LNG_G", "path": "Orientation", "fmt": { "len": 16, "max": 52, "min": -52, "mul": 15.92796725, "div": 10000, "sign": true, "unit": "gravity" }, "name": "Longitudinal acceleration"}
+    {"id": "CAMARO_LNG_G", "path": "Orientation", "fmt": { "len": 16, "max": 52, "min": -52, "mul": 15.92796725, "div": 10000, "sign": true, "unit": "gravity" }, "name": "Longitudinal acceleration", "suggestedMetric": "longitudinalAcceleration"}
   ]},
 { "hdr": "DA40", "rax": "40", "dbg": true, "cmd": {"22": "4005"}, "freq": 3600,
   "signals": [
